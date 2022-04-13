@@ -13,6 +13,10 @@ jobs:
   auto_commit:
     runs-on: ubuntu-latest
     steps:
+      - name: adding github workspace as safe directory
+        run: |
+          git config --global --add safe.directory /github/workspace
+        
       - uses: actions/checkout@v2      
         with:
          persist-credentials: false
