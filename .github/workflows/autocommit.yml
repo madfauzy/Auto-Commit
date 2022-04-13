@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: adding github workspace as safe directory
         run: |
-          git config --local --add safe.directory $GITHUB_WORKSPACE
+          git config --global --add safe.directory $GITHUB_WORKSPACE
         
       - uses: actions/checkout@v2      
         with:
