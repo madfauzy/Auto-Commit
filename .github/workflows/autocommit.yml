@@ -18,27 +18,27 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
 
-      - name: Modify last update
+      - name: Modify Last Update
         run: |
           d=`date '+%Y-%m-%dT%H:%M:%SZ'`
           echo $d > LAST_UPDATED
           
-      - name: Commit changes
+      - name: Commit Changes
         run: |
           git config --local user.email "madfauzy28@gmail.com"
           git config --local user.name "madfauzy"
           git add -A
           
-          arr[0]="chore(bot): 😂 auto commit"
-          arr[1]="chore(bot): 😱 auto commit"
-          arr[2]="chore(bot): 👿 auto commit"
-          arr[3]="chore(bot): 💩 auto commit"
-          arr[4]="chore(bot): 🙏 auto commit"
-          arr[5]="chore(bot): 🙈 auto commit"
-          arr[6]="chore(bot): 🐐 auto commit"
+          arr[0]="chore(bot): 🔥 auto commit"
+          arr[1]="chore(bot): 💀 auto commit"
+          arr[2]="chore(bot): 👹 auto commit"
+          arr[3]="chore(bot): 👺 auto commit"
+          arr[4]="chore(bot): 🤡 auto commit"
+          arr[5]="chore(bot): 👻 auto commit"
+          arr[6]="chore(bot): 👽 auto commit"
           arr[7]="chore(bot): 🤖 auto commit"
-          arr[8]="chore(bot): 🟩 auto commit"
-          arr[9]="chore(bot): 👻 auto commit"
+          arr[8]="chore(bot): 👾 auto commit"
+          arr[9]="chore(bot): 😈 auto commit"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
