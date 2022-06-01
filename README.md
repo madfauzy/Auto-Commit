@@ -20,11 +20,6 @@ Or just do in the manual way:
 
 - https://mazipan.space/membuat-commit-otomatis-ke-github/
 
-## Repo using this auto-commit
-
-- You can add your repo here
-
-
 ## Credits
 
 - [Github Actions](https://github.com/features/actions)
@@ -40,4 +35,3 @@ Or just do in the manual way:
 ---
 
 © 2020 Crafted by Irfan Maulana
-
