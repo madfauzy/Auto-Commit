@@ -18,7 +18,7 @@ Or just do in the manual way:
 
 ## Article (in Bahasa Indonesia)
 
-- https://mazipan.space/membuat-commit-otomatis-ke-github/
+- <https://mazipan.space/membuat-commit-otomatis-ke-github/>
 
 ## Credits
 
