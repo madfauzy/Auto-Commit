@@ -34,4 +34,4 @@ Or just do in the manual way:
 
 ---
 
-© 2020 Crafted by Irfan Maulana
+© 2020-2023 Crafted by Irfan Maulana
