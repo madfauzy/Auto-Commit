@@ -2,7 +2,7 @@
 
 Making green your Github stats, powered by [Github Actions](https://github.com/features/actions)
 
-[![Auto Commit](https://github.com/madfauzy/Auto-Commit/workflows/Auto%20Commit/badge.svg)](https://github.com/madfauzy/Auto-Commit/actions?query=workflow%3A%22Auto+Commit%22)
+[![Auto Commit](https://github.com/madfauzy/Auto-Commit/actions/workflows/autocommit.yml/badge.svg)](https://github.com/madfauzy/Auto-Commit/actions/workflows/autocommit.yml)
 
 ## Make it your own
 
